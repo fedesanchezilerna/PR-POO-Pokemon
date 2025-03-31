@@ -28,6 +28,7 @@ public class Pokemon implements Comparable<Pokemon> {
         this.speed = speed;
         this.generation = generation;
         this.legendary = legendary;
+        this.total = total();
     }
 
     public int getCode() {
